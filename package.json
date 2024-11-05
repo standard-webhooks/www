@@ -24,7 +24,7 @@
     "@uiw/codemirror-themes": "^4.20.2",
     "@uiw/react-codemirror": "^4.20.2",
     "framer-motion": "^10.12.12",
-    "next": "13.4.3",
+    "next": "13.5",
     "next-remove-imports": "^1.0.11",
     "react": "18.2.0",
     "react-dom": "18.2.0",
