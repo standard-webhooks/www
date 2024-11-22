@@ -106,7 +106,7 @@ export function CurlCommandForm() {
     <>
       <Box py={4}>
         <Grid templateColumns="repeat(2, 1fr)" gap={6}>
-          <GridItem colSpan={{ base: 2, md: 1 }}>
+          <GridItem colSpan={{ base: 2, md: 1 }} overflowX="scroll">
             <Stack spacing={4}>
               <Box border="1px solid" borderColor="gray.100" p={4} mt={0}>
                 <FormLabel m={0}>Destination URL</FormLabel>
@@ -201,7 +201,7 @@ export function CurlCommandForm() {
               </Stack>
             </Stack>
           </GridItem>
-          <GridItem colSpan={{ base: 2, md: 1 }}>
+          <GridItem colSpan={{ base: 2, md: 1 }} overflowX="scroll">
             <Stack spacing={2}>
               <HStack>
                 <Heading as="h3" fontSize="2xl">
@@ -224,7 +224,7 @@ export function CurlCommandForm() {
                   icon={<CopyIcon />}
                 />
               </HStack>
-              <Box maxWidth="35rem">
+              <Box>
                 {/* TODO: use bash/shell as language */}
                 <CodeEditor language="plaintext" value={curlCommand} readOnly />
               </Box>

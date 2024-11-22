@@ -28,7 +28,6 @@ export function CodeEditor(props: ICodeEditorProps) {
         basicSetup={{
           lineNumbers: false,
           foldGutter: false,
-          highlightActiveLine: false,
           indentOnInput: false,
           autocompletion: false,
         }}
