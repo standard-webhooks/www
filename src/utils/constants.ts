@@ -184,10 +184,10 @@ export const COMPATIBLE_IMPLEMENTATIONS: ServiceLogo[] = [
     link: "https://www.lob.com/",
   },
   {
-    img: require("../app/img/logos/ltse-brand.svg"),
-    imgAspectRatio: { width: 160, height: 70 },
-    company: "LTSE Equity",
-    link: "https://equity.ltse.com/",
+    img: require("../app/img/logos/render-brand.svg"),
+    imgAspectRatio: { width: 103, height: 20 },
+    company: "Render",
+    link: "https://www.render.com/",
   },
   {
     img: require("../app/img/logos/lithic-brand.svg"),
