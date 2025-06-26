@@ -154,6 +154,12 @@ export const COMMITTEE_MEMBERS: ProfileCardProps[] = [
 
 export const COMPATIBLE_IMPLEMENTATIONS: ServiceLogo[] = [
   {
+    img: require("../app/img/logos/openai-brand.svg"),
+    imgAspectRatio: { width: 294, height: 64 },
+    company: "OpenAI",
+    link: "https://openai.com/",
+  },
+  {
     img: require("../app/img/logos/brex-brand.svg"),
     imgAspectRatio: { width: 294, height: 64 },
     company: "Brex",
@@ -260,12 +266,6 @@ export const COMPATIBLE_IMPLEMENTATIONS: ServiceLogo[] = [
     imgAspectRatio: { width: 616, height: 225 },
     company: "Act-On",
     link: "https://www.act-on.com/",
-  },
-  {
-    img: require("../app/img/logos/gigs-brand.svg"),
-    imgAspectRatio: { width: 63, height: 31 },
-    company: "Gigs",
-    link: "https://gigs.com/",
   },
   {
     img: require("../app/img/logos/wetravel-brand.webp"),
