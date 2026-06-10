@@ -31,7 +31,6 @@ import { ActionCard } from "@/components/landing/ActionCard";
 import { FeatureCard } from "@/components/landing/FeatureCard";
 import C from "@/utils/constants";
 import LogoWall from "@/components/LogoWall";
-import { ReceivingWebhooksCallout } from "@/components/ReceivingWebhooksCallout";
 
 export const LOGOS_AND_BADGES = [
   {
@@ -280,7 +279,7 @@ export default function LandingPage() {
                     title="AI Skill"
                     description="The receiving-webhooks skill teaches AI agents to verify webhooks the right way."
                     icon={RiRobot2Fill}
-                    ctaUrl={"https://github.com/svix/ai/blob/main/skills/receiving-webhooks/"}
+                    ctaUrl="https://github.com/svix/ai/blob/main/skills/receiving-webhooks/"
                     ctaText="View the skill"
                   />
                 </GridItem>
