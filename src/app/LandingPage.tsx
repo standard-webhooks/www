@@ -279,7 +279,7 @@ export default function LandingPage() {
                     title="AI Skill"
                     description="The receiving-webhooks skill teaches AI agents to verify webhooks the right way."
                     icon={RiRobot2Fill}
-                    ctaUrl="https://github.com/svix/ai/blob/main/skills/receiving-webhooks/"
+                    ctaUrl="https://github.com/standard-webhooks/standard-webhooks/blob/main/skills/receiving-webhooks/"
                     ctaText="View the skill"
                   />
                 </GridItem>
