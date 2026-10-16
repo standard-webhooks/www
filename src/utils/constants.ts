@@ -172,6 +172,13 @@ export const COMPATIBLE_IMPLEMENTATIONS: ServiceLogo[] = [
     link: "https://gemini.google.com/app",
   },
   {
+    img: require("../app/img/logos/mcp-brand.svg"),
+    imgAspectRatio: { width: 412, height: 176 },
+    size: "lg",
+    company: "Model Context Protocol",
+    link: "https://modelcontextprotocol.io/",
+  },
+  {
     img: require("../app/img/logos/brex-brand.svg"),
     imgAspectRatio: { width: 294, height: 64 },
     company: "Brex",
@@ -344,12 +351,6 @@ export const COMPATIBLE_IMPLEMENTATIONS: ServiceLogo[] = [
     imgAspectRatio: { width: 172, height: 64 },
     company: "ngrok",
     link: "https://ngrok.com/",
-  },
-  {
-    img: require("../app/img/logos/safebase-brand.svg"),
-    imgAspectRatio: { width: 200, height: 34 },
-    company: "SafeBase",
-    link: "https://safebase.io/",
   },
   {
     img: require("../app/img/logos/lob-brand.svg"),
