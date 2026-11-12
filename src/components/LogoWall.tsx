@@ -41,16 +41,6 @@ export default function LogoWall(props: LogoProps) {
           </React.Fragment>
         ))}
       </div>
-      <div className="text-center text-lg pt-12">
-        Standard Webhooks compatible?{" "}
-        <Link
-          className="underline"
-          href="https://github.com/standard-webhooks/standard-webhooks/issues/new"
-        >
-          Contact us
-        </Link>{" "}
-        to add your logo.
-      </div>
     </div>
   );
 }
