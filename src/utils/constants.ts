@@ -172,6 +172,12 @@ export const COMPATIBLE_IMPLEMENTATIONS: ServiceLogo[] = [
     link: "https://gemini.google.com/app",
   },
   {
+    img: require("../app/img/logos/cursor-brand.svg"),
+    imgAspectRatio: { width: 800, height: 190 },
+    company: "Cursor",
+    link: "https://cursor.com/",
+  },
+  {
     img: require("../app/img/logos/mcp-brand.svg"),
     imgAspectRatio: { width: 412, height: 176 },
     size: "lg",
@@ -285,12 +291,6 @@ export const COMPATIBLE_IMPLEMENTATIONS: ServiceLogo[] = [
     imgAspectRatio: { width: 125, height: 32 },
     company: "incident.io",
     link: "https://incident.io/",
-  },
-  {
-    img: require("../app/img/logos/jeli-brand.svg"),
-    imgAspectRatio: { width: 100, height: 42 },
-    company: "Jeli",
-    link: "https://www.jeli.io/",
   },
   {
     img: require("../app/img/logos/acton-brand.svg"),
