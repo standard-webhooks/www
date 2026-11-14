@@ -6,7 +6,7 @@ const STANDARD = WEBHOOK_PROVIDERS[0];
 export const useWebhookProvider = () => {
   const { provider } = useParams();
 
-  if (!provider || provider === "" || (typeof provider !== "string")) {
+  if (typeof provider !== "string" || provider === "") {
     return STANDARD;
   }
 
