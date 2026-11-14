@@ -2,6 +2,7 @@
 const removeImports = require("next-remove-imports")();
 module.exports = removeImports({
   experimental: { esmExternals: true },
+  eslint: { ignoreDuringBuilds: true },
   async redirects() {
     return [
       {

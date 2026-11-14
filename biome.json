@@ -1,0 +1,66 @@
+{
+  "$schema": "https://biomejs.dev/schemas/2.6.7/schema.json",
+  "vcs": {
+    "enabled": true,
+    "clientKind": "git",
+    "useIgnoreFile": true
+  },
+  "files": {
+    "includes": ["src/**", "!**/*.svg"]
+  },
+  "formatter": {
+    "enabled": true,
+    "indentStyle": "space",
+    "indentWidth": 2,
+    "lineWidth": 80
+  },
+  "javascript": {
+    "formatter": {
+      "quoteStyle": "double",
+      "semicolons": "always",
+      "trailingCommas": "es5"
+    }
+  },
+  "linter": {
+    "enabled": true,
+    "rules": {
+      "preset": "recommended",
+      "complexity": {
+        "noUselessFragments": "off",
+        "noImportantStyles": "off",
+        "useRegexLiterals": "off",
+        "useOptionalChain": "off"
+      },
+      "correctness": {
+        "useParseIntRadix": "off",
+        "useExhaustiveDependencies": {
+          "level": "warn",
+          "options": {
+            "reportUnnecessaryDependencies": false
+          }
+        }
+      },
+      "style": {
+        "useImportType": "off"
+      },
+      "suspicious": {
+        "noExplicitAny": "off",
+        "noArrayIndexKey": "off",
+        "noUnknownAtRules": {
+          "level": "error",
+          "options": {
+            "ignore": ["tailwind"]
+          }
+        }
+      }
+    }
+  },
+  "assist": {
+    "enabled": true,
+    "actions": {
+      "source": {
+        "organizeImports": "off"
+      }
+    }
+  }
+}

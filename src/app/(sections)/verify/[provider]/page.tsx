@@ -1,4 +1,3 @@
-import React from "react";
 import { Metadata } from "next";
 
 import { VerifyPage } from "@/app/(sections)/verify/[provider]/VerifyForm";

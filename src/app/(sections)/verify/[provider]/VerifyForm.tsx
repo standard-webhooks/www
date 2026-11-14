@@ -1,7 +1,7 @@
 "use client";
 import { Grid, GridItem, Heading, Stack } from "@chakra-ui/react";
 
-import React, { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 
 import { Controller, UseFormReturn, useForm } from "react-hook-form";
 import { CodeEditor } from "@/components/CodeEditor";
@@ -47,7 +47,7 @@ function VerifyForm(props: { formConfig: IFormConfig }) {
       try {
         const generatedSignature = formConfig.signature(formCtx.getValues());
         setSignature(generatedSignature);
-      } catch (err) {
+      } catch {
         formCtx.setError("secret", {
           type: "manual",
           message:

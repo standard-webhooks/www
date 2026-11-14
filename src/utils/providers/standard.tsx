@@ -39,7 +39,7 @@ export const validateBase64 = (value: string) => {
     }
     base64.decode(secret);
     return true;
-  } catch (err) {
+  } catch {
     return false;
   }
 };

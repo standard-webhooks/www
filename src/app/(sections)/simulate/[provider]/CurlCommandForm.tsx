@@ -80,7 +80,7 @@ export function CurlCommandForm() {
     if (isValid) {
       try {
         setCurlCommand(formConfig.curlCommand(getValues()));
-      } catch (err) {
+      } catch {
         setError("secret", {
           type: "manual",
           message:
