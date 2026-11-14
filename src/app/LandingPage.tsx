@@ -24,7 +24,7 @@ import {
   RiServiceFill,
   RiPencilRuler2Fill,
   RiBook2Fill,
-  RiRobot2Fill,
+  RiRobotFill,
 } from "react-icons/ri";
 import { ReferenceTile } from "@/components/landing/ReferenceTile";
 import { ActionCard } from "@/components/landing/ActionCard";
@@ -278,7 +278,7 @@ export default function LandingPage() {
                     backgroundColor="black.300"
                     title="AI Skill"
                     description="The receiving-webhooks skill teaches AI agents to verify webhooks the right way."
-                    icon={RiRobot2Fill}
+                    icon={RiRobotFill}
                     ctaUrl="https://github.com/standard-webhooks/standard-webhooks/blob/main/skills/receiving-webhooks/"
                     ctaText="View the skill"
                   />
