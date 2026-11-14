@@ -28,7 +28,7 @@ export default function LogoWall(props: LogoProps) {
           <React.Fragment key={item.company}>
             <Link className="max-w-[140px] w-full" href={item.link}>
               <NextImage
-                className={`mx-auto filter grayscale w-auto ${
+                className={`mx-auto w-auto ${
                   item.size === "lg" ? "h-8 md:h-9" : "h-6 md:h-7"
                 }`}
                 src={item.img}
