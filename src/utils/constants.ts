@@ -192,13 +192,13 @@ export const COMPATIBLE_IMPLEMENTATIONS: ServiceLogo[] = [
   },
   {
     img: require("../app/img/logos/kong-logo.svg"),
-    imgAspectRatio: { width: 600, height: 200 },
+    imgAspectRatio: { width: 429, height: 137 },
     company: "Kong",
     link: "https://www.konghq.com/",
   },
   {
     img: require("../app/img/logos/svix-brand.svg"),
-    imgAspectRatio: { width: 1750, height: 545 },
+    imgAspectRatio: { width: 157, height: 45 },
     company: "Svix",
     link: "https://www.svix.com/",
   },
@@ -330,7 +330,7 @@ export const COMPATIBLE_IMPLEMENTATIONS: ServiceLogo[] = [
   },
   {
     img: require("../app/img/logos/resend-brand.svg"),
-    imgAspectRatio: { width: 60, height: 16 },
+    imgAspectRatio: { width: 1978, height: 420 },
     company: "Resend",
     link: "https://www.resend.com/",
   },
