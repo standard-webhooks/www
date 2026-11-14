@@ -7,8 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint:eslint": "eslint --ext .js,.jsx,.ts,.tsx src",
-    "lint": "prettier src --check && yarn run lint:eslint --max-warnings=0",
-    "lint:fix": "prettier src --write && yarn run lint:eslint --fix"
+    "lint": "prettier src --check && npm run lint:eslint -- --max-warnings=0",
+    "lint:fix": "prettier src --write && npm run lint:eslint -- --fix"
   },
   "dependencies": {
     "@chakra-ui/icons": "^2.0.19",
